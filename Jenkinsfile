@@ -8,8 +8,8 @@ node {
 	    stage('envset'){
 	     withEnv([
             "devopsName='Jenkins DevOps'",
-            'emailTo=devopstrainingblr@gmail.com',
-            'emailFrom=devopstrainingblr@gmail.com'
+            'emailTo=mail9sekhar@gmail.com',
+            'emailFrom=mail2sekhar.pasupula@gmail.com'
 	    ])
 	    }
        stage('Checkout'){
